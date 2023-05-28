@@ -113,7 +113,6 @@ class Cherry:
         """
         self.snake.grow()
         self.new_position()
-        print(self.position)
         self.draw()
 
     def draw(self):
